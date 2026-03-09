@@ -114,12 +114,12 @@
     "application":  "26.0.0.0",
     "idRanges":  [
                      {
-                         "from":  90000,
-                         "to":  99999
+                         "from":  91000,
+                         "to":  91999
                      },
                      {
-                         "from":  70000,
-                         "to":  79999
+                         "from":  71000,
+                         "to":  71999
                      }
                  ],
     "resourceExposurePolicy":  {
@@ -127,7 +127,7 @@
                                    "allowDownloadingSource":  false,
                                    "includeSourceInSymbolFile":  false
                                },
-    "runtime":  "15.0",
+    "runtime":  "16.0",
     "features":  [
                      "NoImplicitWith",
                      "TranslationFile"
