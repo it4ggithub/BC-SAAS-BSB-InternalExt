@@ -1,7 +1,7 @@
 {
   "id": "939b553f-b2cb-4774-bd20-6229b565b05f",
   "name": "BC-SAAS-BSB-InternalExt",
-  "publisher": "Default Publisher",
+  "publisher": "BSB",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -9,24 +9,127 @@
   "EULA": "",
   "help": "",
   "url": "",
-  "logo": "",
-  "dependencies": [],
-  "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "27.0.0.0",
-  "idRanges": [
-    {
-      "from": 50100,
-      "to": 50149
-    }
-  ],
-  "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": true,
-    "includeSourceInSymbolFile": true
-  },
-  "runtime": "16.0",
-  "features": [
-    "NoImplicitWith"
-  ]
+    "dependencies":  [
+                         {
+                             "id":  "5ecfc871-5d82-43f1-9c54-59685e82318d",
+                             "publisher":  "LS Retail",
+                             "name":  "LS Central",
+                             "version":  "0.0.0.0"
+                         },
+                         {
+                             "id":  "2f0f6a6e-b604-469b-b865-9419b039109b",
+                             "publisher":  "IT4Growth",
+                             "name":  "01-IT4G-Base",
+                             "version":  "927.0.0.0"
+                         },
+                         {
+                             "id":  "dfd9311a-2fb8-42f4-8298-5360502e8a38",
+                             "name":  "BSBCustom",
+                             "version":  "0.0.0.0",
+                             "publisher":  "Ergologic"
+                         },
+                         {
+                             "id":  "ff3708ed-4315-453d-b76a-a3f94a850b28",
+                             "publisher":  "Ergologic",
+                             "name":  "BSBRetail",
+                             "version":  "0.0.0.0"
+                         },
+                         {
+                             "id":  "dea8a8dc-77b5-42b8-93fa-313be3e3bf47",
+                             "publisher":  "Ergologic",
+                             "name":  "Electronic Invoicing",
+                             "version":  "0.0.0.0"
+                         },
+                         {
+                             "id":  "6f9b5d17-c487-427f-8582-7ed74e2bb8dc",
+                             "publisher":  "Ergologic",
+                             "name":  "Erg_EditPages",
+                             "version":  "0.0.0.0"
+                         },
+                         {
+                             "id":  "7e661b13-8101-4780-b8c5-db8b141ad346",
+                             "publisher":  "Ergologic",
+                             "name":  "Eshop_Courier",
+                             "version":  "0.0.0.0"
+                         },
+                         {
+                             "id":  "45502936-053a-4644-af2a-f98f591efc6a",
+                             "publisher":  "Ergologic",
+                             "name":  "Retail Customer Orders",
+                             "version":  "0.0.0.0"
+                         },
+                         {
+                             "id":  "e6c116e2-7ef7-4eaa-ac04-a7b571edde69",
+                             "publisher":  "Ergologic",
+                             "name":  "RMA",
+                             "version":  "0.0.0.0"
+                         },
+                         {
+                             "id":  "b141b877-a834-441a-ad9b-654efe2957d0",
+                             "publisher":  "Ergologic",
+                             "name":  "TaxFree",
+                             "version":  "0.0.0.0"
+                         },
+                         {
+                             "id":  "3c951106-3757-4c04-944e-5ec15a83dd30",
+                             "publisher":  "Ergologic",
+                             "name":  "Web Service Printer",
+                             "version":  "0.0.0.0"
+                         },
+                         {
+                             "id":  "df6b061c-8ce9-422b-81f7-4d6728b5cf61",
+                             "publisher":  "Ergologic",
+                             "name":  "Greek Localization for LS Central",
+                             "version":  "0.0.0.0"
+                         },
+                         {
+                             "id":  "860129d2-5bb6-4698-b9a9-4e7e406b284a",
+                             "publisher":  "Real Consulting SA",
+                             "name":  "Greek Localization for Business Central Essentials",
+                             "version":  "0.0.0.0"
+                         },
+                         {
+                             "id":  "1b8c4264-dbf7-47a3-b6af-42c114853025",
+                             "publisher":  "Real Consulting SA",
+                             "name":  "Greek Localization for Business Central Premium",
+                             "version":  "0.0.0.0"
+                         },
+                         {
+                             "id":  "860129d2-5bb6-4698-b9a9-66430dbeabab",
+                             "publisher":  "Real Consulting SA",
+                             "name":  "Greek Localization for Dynamics 365 Business Central mydata",
+                             "version":  "0.0.0.0"
+                         },
+                         {
+                             "id":  "86f70d8d-6353-48ee-966b-124504fa183f",
+                             "name":  "90-IT4G-BSB",
+                            "publisher":  "IT4Growth",
+                            "version":  "0.0.0.0" 
+                         }
+                     ],
+    "screenshots":  [
+
+                    ],
+    "platform":  "26.0.0.0",
+    "application":  "26.0.0.0",
+    "idRanges":  [
+                     {
+                         "from":  90000,
+                         "to":  99999
+                     },
+                     {
+                         "from":  70000,
+                         "to":  79999
+                     }
+                 ],
+    "resourceExposurePolicy":  {
+                                   "allowDebugging":  true,
+                                   "allowDownloadingSource":  false,
+                                   "includeSourceInSymbolFile":  false
+                               },
+    "runtime":  "15.0",
+    "features":  [
+                     "NoImplicitWith",
+                     "TranslationFile"
+                 ]
 }
