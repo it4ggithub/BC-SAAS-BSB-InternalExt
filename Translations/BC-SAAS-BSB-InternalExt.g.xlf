@@ -3,6 +3,106 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="BC-SAAS-BSB-InternalExt">
     <body>
       <group id="body">
+        <trans-unit id="PageExtension 960016820 - Action 2048917711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4201932270">
+          <source>IT4G Get Transfer Boxes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension IT4G-Transfer Shipment - Action GetBoxes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BSB-Trans. AADE for Correction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the Post Infocode.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 633819257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gen. Bus. Posting Group field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Gen. Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 471669354 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gross Amount field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Gross Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 768219592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the myData MarkId field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control myData MarkId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 360462493 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the myData Transaction Errors field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control myData Transaction Errors - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 992250984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the myData Uid field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control myData Uid - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 3035691293 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Net Amount field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Net Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 1098346073 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the POS Terminal No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control POS Terminal No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 460778485 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Post Infocode field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Post Infocode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 1163570157 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Post Series field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Post Series - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 942402152 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Posting Status field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Posting Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 3019550948 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Store No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Store No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 3319631365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Transaction No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Transaction No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 1108276017 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VAT Amount field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control VAT Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 3392322146 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VAT Bus.Posting Group field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control VAT Bus.Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Action 689898516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send Electronic Invoice Manually</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Action Send Electronic Invoice Manually - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1206792336 - Action 2684927823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
           <source>Get Vendor Excel</source>
           <note from="Developer" annotates="general" priority="2"></note>
