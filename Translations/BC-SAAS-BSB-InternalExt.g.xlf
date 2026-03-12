@@ -3,6 +3,16 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="BC-SAAS-BSB-InternalExt">
     <body>
       <group id="body">
+        <trans-unit id="Page 2653620299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IT4G - Temp Customer Order Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Temp Cust. Order Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2653620299 - Action 1417232546 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Temp Cust. Order Header - Action Check - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 960016820 - Action 2048917711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4201932270">
           <source>IT4G Get Transfer Boxes</source>
           <note from="Developer" annotates="general" priority="2"></note>
