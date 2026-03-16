@@ -4,7 +4,7 @@ page 91000 "BSB-Trans. AADE for Correction"
     Caption = 'BSB-Trans. AADE for Correction';
     PageType = List;
     SourceTable = "LSC Transaction Header";
-    SourceTableView = where("Entry Status" = filter(" " | Posted), "Post Infocode" = filter(<> ''));
+    SourceTableView = where("Entry Status" = filter(" " | Posted), "Post Infocode" = filter(<> ''), "Transaction No." = filter(> 0));
     UsageCategory = Administration;
     DeleteAllowed = false;
     InsertAllowed = false;

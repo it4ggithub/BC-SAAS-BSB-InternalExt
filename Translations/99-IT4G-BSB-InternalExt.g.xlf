@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="99-IT4G-BSB-InternalExt">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 2573134080 - NamedType 3191822928" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must assign all quantity in order to post. Quantity is %1. Qty. to Assign is %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit IT4G-Charge Assigment - NamedType QtyNotAssignedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2573134080 - NamedType 4217068680" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related item ledger entries cannot be found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit IT4G-Charge Assigment - NamedType RelatedItemLedgEntriesNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2573134080 - Method 2962497519 - NamedType 1896616531" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt lines have been deleted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit IT4G-Charge Assigment - Method PostItemChargePerRcpt - NamedType ReceiptLinesDeletedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IT4G-Posted Transfer Shipments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Control 768219592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the myData MarkId field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Control myData MarkId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Control 360462493 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the myData Transaction Errors field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Control myData Transaction Errors - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Control 1351594800 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. Series field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Control No. Series - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the posting date for this document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Control 4112852368 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when items on the document are shipped or were shipped. A shipment date is usually calculated from a requested delivery date plus lead time.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Control Shipment Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Control 2205104606 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the delivery conditions of the related shipment, such as free on board (FOB).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Control Shipment Method Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Control 2637044927 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Shipment Reason field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Control Shipment Reason RCGRBASE - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Control 4045368290 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for the shipping agent who is transporting the items.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Control Shipping Agent Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Control 2730811709 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code for the service, such as a one-day delivery, that is offered by the shipping agent.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Control Shipping Agent Service Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Control 376298210 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Transfer Reason field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Control Transfer Reason RCGRBASE - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Control 520660911 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the location that items are transferred from.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Control Transfer-from Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Control 3755656249 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the sender at the location that the items are transferred from.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Control Transfer-from Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Control 324034516 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the location that the items are transferred to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Control Transfer-to Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Control 3242223630 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the recipient at the location that the items are transferred to.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Control Transfer-to Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2744627358 - Action 689898516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send Electronic Invoice Manually</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Posted Transfer Shipments - Action Send Electronic Invoice Manually - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2653620299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IT4G - Temp Customer Order Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Temp Cust. Order Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2653620299 - Action 1417232546 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Temp Cust. Order Header - Action Check - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2188927027 - Action 2048917711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 868880234">
+          <source>IT4G Get Transfer Boxes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension IT4G-Posted LS TR Ship - Action GetBoxes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1756296107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IT4G-Missmatched Cust. Documents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Missmatched Cust. Docs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1756296107 - Action 4147256502 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find Mismatched Documents</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Missmatched Cust. Docs - Action FindMismachDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 960016820 - Action 2048917711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4201932270">
+          <source>IT4G Get Transfer Boxes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension IT4G-Transfer Shipment - Action GetBoxes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BSB-Trans. AADE for Correction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description of the Post Infocode.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 633819257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gen. Bus. Posting Group field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Gen. Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 471669354 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gross Amount field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Gross Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 768219592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the myData MarkId field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control myData MarkId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 360462493 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the myData Transaction Errors field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control myData Transaction Errors - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 992250984 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the myData Uid field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control myData Uid - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 3035691293 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Net Amount field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Net Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 1098346073 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the POS Terminal No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control POS Terminal No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 460778485 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Post Infocode field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Post Infocode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 1163570157 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Post Series field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Post Series - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 942402152 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Posting Status field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Posting Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 3019550948 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Store No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Store No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 3319631365 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Transaction No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Transaction No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 1108276017 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VAT Amount field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control VAT Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 3392322146 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VAT Bus.Posting Group field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control VAT Bus.Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Action 689898516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send Electronic Invoice Manually</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Action Send Electronic Invoice Manually - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 307361938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IT4G-Pending Item Charge Assignment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Pending Item Charge Asg - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 307361938 - Control 3037438984 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Pending Item Charge Asg - Control PostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 307361938 - Action 1167507281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Pending Item Charge Asg - Action Document - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 307361938 - Action 3751827619 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Charge Assignemts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Pending Item Charge Asg - Action assign - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 307361938 - Action 2282416948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Pending Item Charge Asg - Action Post - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1206792336 - Action 2684927823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>Get Vendor Excel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension BSB_Int-Vendor List - Action BSB-Vendor Excel - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

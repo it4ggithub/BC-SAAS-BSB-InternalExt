@@ -70,4 +70,11 @@ codeunit 91000 "BSB-Int-Functions"
     end;
 
 
+
+    procedure ApplyCustEntries()
+    var
+        cC: Page "Customer Ledger Entries";
+    begin
+
+    end;
 }
