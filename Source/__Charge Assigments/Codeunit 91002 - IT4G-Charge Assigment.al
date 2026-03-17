@@ -11,8 +11,10 @@ using Microsoft.Inventory.Tracking;
 using Microsoft.Inventory.Ledger;
 using Microsoft.Purchases.Document;
 
+
 codeunit 91002 "IT4G-Charge Assigment"
 {
+    Permissions = TableData "Purch. Inv. Line" = RIMD;
     PROCEDURE PostPendingItemChargeLine(PendingAssignment: Record "Pending Item Charge Assignment"; xDate: Date);
     VAR
         PurchInvHeader: Record "Purch. Inv. Header";

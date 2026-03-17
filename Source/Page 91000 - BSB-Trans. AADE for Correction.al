@@ -13,6 +13,17 @@ page 91000 "BSB-Trans. AADE for Correction"
     {
         area(Content)
         {
+            group(Count)
+            {
+                Caption = 'Count';
+                ShowCaption = false;
+                field(RowCount; Rec.Count)
+                {
+                    Editable = false;
+                    Caption = 'No. of Records';
+                }
+
+            }
             repeater(General)
             {
                 field("Store No."; Rec."Store No.")
@@ -138,7 +149,7 @@ page 91000 "BSB-Trans. AADE for Correction"
                     rRec: Record "LSC Transaction Header";
                 begin
                     CurrPage.SetSelectionFilter(rRec);
-                    if rec.FindSet() then begin
+                    if rRec.FindSet() then begin
                         repeat
                             TransactionHeader.Get(rRec."Store No.", rRec."POS Terminal No.", rRec."Transaction No.");
                             if not TransactionHeader."Sale Is Return Sale" then
@@ -184,7 +195,27 @@ page 91000 "BSB-Trans. AADE for Correction"
             Error('The transaction cannot be modified as it allready send to myData. Please contact your administrator for more details.');
     end;
 
+    trigger OnOpenPage()
     var
+        rA: Record "Invoice Type Mapping RCmyData";
+    begin
+        seriesfilter := '';
+        if rA.findset then
+            repeat
+                if rA."No. Series" <> '' then begin
+                    if seriesfilter <> '' then
+                        seriesfilter += '|';
+                    seriesfilter += rA."No. Series";
+                end
+            until rA.Next() = 0;
+        Rec.FilterGroup := 2;
+        Rec.SetFilter("Post Series", seriesfilter);
+        Rec.FilterGroup := 0;
+        CurrPage.Update(false);
+    end;
+
+    var
+        seriesfilter: Text;
         bAADEEnabled: Boolean;
         xDocDescr: Text;
         xStyle: Text;

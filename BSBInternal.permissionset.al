@@ -9,5 +9,9 @@ permissionset 91000 "BSB-Internal"
         page "IT4G-Missmatched Cust. Docs" = X,
         codeunit "IT4G-Charge Assigment" = X,
         page "IT4G-Pending Item Charge Asg" = X,
-        page "IT4G-Posted Transfer Shipments" = X;
+        page "IT4G-Posted Transfer Shipments" = X,
+        tabledata "IT4G-Check Apothemata" = RIMD,
+        table "IT4G-Check Apothemata" = X,
+        codeunit "IT4G-Check Apothemata" = X,
+        page "IT4G-Check Apothemata" = X;
 }

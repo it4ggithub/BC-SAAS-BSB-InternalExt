@@ -18,6 +18,71 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit IT4G-Charge Assigment - Method PostItemChargePerRcpt - NamedType ReceiptLinesDeletedErr</note>
         </trans-unit>
+        <trans-unit id="Page 1250985909 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IT4G-Check Apothemata</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Apothemata - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1250985909 - Control 400793991 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bin field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Apothemata - Control Bin - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1250985909 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Item No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Apothemata - Control Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1250985909 - Control 3891454143 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Location field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Apothemata - Control Location - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1250985909 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Quantity field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Apothemata - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1250985909 - Control 1946412628 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SSCC field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Apothemata - Control SSCC - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1250985909 - Control 627088875 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SSCC Bin Qty field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Apothemata - Control SSCC Bin Qty - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1250985909 - Control 2347275048 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SSCC Qty field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Apothemata - Control SSCC Qty - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1250985909 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Type field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Apothemata - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1250985909 - Control 3450651614 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Variant Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Apothemata - Control Variant Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1250985909 - Control 225872043 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Warehouse Qty field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Apothemata - Control Warehouse Qty - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1250985909 - Action 1365275863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Empty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Apothemata - Action Empty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1250985909 - Action 2026913255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Apothemata - Action Refresh - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2744627358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>IT4G-Posted Transfer Shipments</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -133,10 +198,75 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension IT4G-Transfer Shipment - Action GetBoxes - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1250985909 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IT4G-Check Apothemata</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Apothemata - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1250985909 - Field 400793991 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Apothemata - Field Bin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1250985909 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Apothemata - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1250985909 - Field 3891454143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Apothemata - Field Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1250985909 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Apothemata - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1250985909 - Field 1946412628 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SSCC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Apothemata - Field SSCC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1250985909 - Field 627088875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SSCC Bin Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Apothemata - Field SSCC Bin Qty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1250985909 - Field 2347275048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SSCC Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Apothemata - Field SSCC Qty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1250985909 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Apothemata - Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1250985909 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Apothemata - Field Variant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1250985909 - Field 225872043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Apothemata - Field Warehouse Qty - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2741573338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>BSB-Trans. AADE for Correction</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 1300919661 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Count</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control Count - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2741573338 - Control 1156686211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Records</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BSB-Trans. AADE for Correction - Control RowCount - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2741573338 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Date field.</source>
