@@ -8,6 +8,8 @@ table 91001 "e-Mail Log"
         field(1; "Entry No"; Integer)
         {
             Caption = 'Entry No';
+            AutoIncrement = true;
+
         }
         field(2; "Sender Address"; Text[100])
         {
@@ -69,12 +71,5 @@ table 91001 "e-Mail Log"
             Clustered = true;
         }
     }
-    trigger OnInsert();
-    begin
-        //clear(rEmail)
-        //if rEmail.FINDLAST then
-        //  "Entry No" := rEmail."Entry No" + 1
-        // else
-        //"Entry No" := 1;        
-    end;
+
 }
