@@ -1,14 +1,14 @@
 {
-  "id": "939b553f-b2cb-4774-bd20-6229b565b05f",
-  "name": "99-IT4G-BSB-InternalExt",
-  "publisher": "IT4G-BSB",
-  "version": "1.0.0.11",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
+    "id":  "939b553f-b2cb-4774-bd20-6229b565b05f",
+    "name":  "99-IT4G-BSB-InternalExt",
+    "publisher":  "IT4G-BSB",
+    "version":  "927.2026.3.107",
+    "brief":  "",
+    "description":  "",
+    "privacyStatement":  "",
+    "EULA":  "",
+    "help":  "",
+    "url":  "",
     "dependencies":  [
                          {
                              "id":  "5ecfc871-5d82-43f1-9c54-59685e82318d",
@@ -21,6 +21,18 @@
                              "publisher":  "IT4Growth",
                              "name":  "01-IT4G-Base",
                              "version":  "927.0.0.0"
+                         },
+                         {
+                             "id":  "56c0b33d-dcb1-44f9-bf48-eee2c2cfcb24",
+                             "name":  "02-IT4G-LS-BSB",
+                             "publisher":  "IT4Growth",
+                             "version":  "0.0.0.0"
+                         },
+                         {
+                             "id":  "86f70d8d-6353-48ee-966b-124504fa183f",
+                             "name":  "90-IT4G-BSB",
+                             "publisher":  "IT4Growth",
+                             "version":  "0.0.0.0"
                          },
                          {
                              "id":  "dfd9311a-2fb8-42f4-8298-5360502e8a38",
@@ -99,12 +111,6 @@
                              "publisher":  "Real Consulting SA",
                              "name":  "Greek Localization for Dynamics 365 Business Central mydata",
                              "version":  "0.0.0.0"
-                         },
-                         {
-                             "id":  "86f70d8d-6353-48ee-966b-124504fa183f",
-                             "name":  "90-IT4G-BSB",
-                            "publisher":  "IT4Growth",
-                            "version":  "0.0.0.0" 
                          }
                      ],
     "screenshots":  [

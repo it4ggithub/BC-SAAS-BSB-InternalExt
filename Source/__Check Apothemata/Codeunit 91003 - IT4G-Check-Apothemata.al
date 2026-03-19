@@ -6,13 +6,18 @@ codeunit 91003 "IT4G-Check Apothemata"
 {
     procedure RefreshApothemata(rRec: record "IT4G-Check Apothemata")
     var
-        rILE: Record "Item Ledger Entry";
-        rWHE: Record "Warehouse Entry";
-        rSSCCL: Record "Sub SSCC Line";
-        xLoc, xBin, xSSCC, xItem, xVariant : Text;
-        currKey, OldKey : Text;
+
     begin
         rRec.Truncate();
+        commit;
+        CreateILEntry(rRec);
+        CreateWHEntry(rRec);
+        CreateSSCCEntry(rRec);
+    end;
+
+    Procedure CreateILEntry(rRec: record "IT4G-Check Apothemata")
+    var
+    begin
         rILE.SetCurrentKey("Item No.", "Variant Code");
         rILE.SetRange("Location Code", '200');
         if rILE.FindSet() then begin
@@ -38,7 +43,11 @@ codeunit 91003 "IT4G-Check Apothemata"
             if rRec."Variant Code" <> '' then rRec.Insert();
             dDLG.Close();
         end;
+    end;
 
+    Procedure CreateWHEntry(rRec: record "IT4G-Check Apothemata")
+    var
+    begin
         rWHE.SetCurrentKey("Bin Code", "Item No.", "Variant Code");
         rWHE.SetRange("Location Code", '200');
         if rWHE.FindSet() then begin
@@ -66,6 +75,11 @@ codeunit 91003 "IT4G-Check Apothemata"
             dDLG.Close();
         end;
 
+    end;
+
+    Procedure CreateSSCCEntry(rRec: record "IT4G-Check Apothemata")
+    var
+    begin
         rSSCCL.SetCurrentKey("Sub SSCC No.", "Bin Code", "Item No.", "Variant Code");
         rSSCCL.SetRange("Location Code", '200');
         if rSSCCL.FindSet() then begin
@@ -83,8 +97,8 @@ codeunit 91003 "IT4G-Check Apothemata"
                     rRec.Location := rSSCCL."Location Code";
                     rRec.SSCC := rSSCCL."Sub SSCC No.";
                     rRec.Bin := rSSCCL."Bin Code";
-                    rRec."Item No." := rWHE."Item No.";
-                    rRec."Variant Code" := rWHE."Variant Code";
+                    rRec."Item No." := rSSCCL."Item No.";
+                    rRec."Variant Code" := rSSCCL."Variant Code";
                 end;
                 rRec.Quantity += rSSCCL.Quantity;
 
@@ -93,12 +107,50 @@ codeunit 91003 "IT4G-Check Apothemata"
             if rRec."Variant Code" <> '' then if rRec.Insert() then;
             dDLG.Close();
         end;
+    end;
 
 
+    procedure CheckStatus(rRec: record "IT4G-Check Apothemata")
+    begin
+        if rRec.findset then begin
+            i := 0;
+            t := rRec.Count();
+            dDLG.Open('Check Lines #1 of #2', i, t);
+            repeat
+                i += 1;
+                dDLG.Update();
+                rRec.Status := rRec.Status::Match;
+                rRec."SSCC Mismatch" := false;
+                rRec."Warehouse Mismatch" := false;
+
+                case rRec.Type of
+                    rRec.Type::"Item Ledger Entry":
+                        begin
+                            rRec.CalcFields(rRec."ILE Live", rRec."Warehouse Live", rRec."SSCC Live");
+                            if rRec."ILE Live" <> rRec."Warehouse Live" then rRec."Warehouse Mismatch" := true;
+                            if rRec."ILE Live" <> rRec."SSCC Live" then rRec."SSCC Mismatch" := true;
+                            if rRec."Warehouse Mismatch" or rRec."SSCC Mismatch" then rRec.Status := rRec.Status::Mismatch
+                        end;
+                    rRec.Type::"Warehouse Entry":
+                        begin
+                            rRec.CalcFields("Warehouse Bin Live", rRec."SSCC Bin Live");
+                            if rRec."Warehouse Bin Live" <> rRec."SSCC Bin Live" then rRec."SSCC Mismatch" := true;
+                            if rRec."SSCC Mismatch" then rRec.Status := rRec.Status::Mismatch
+                        end;
+                end;
+                rRec.Modify();
+
+            until rRec.Next() = 0;
+            dDLG.Close();
+        end;
     end;
 
     var
-        rAP: record "IT4G-Check Apothemata" temporary;
+        rILE: Record "Item Ledger Entry";
+        rWHE: Record "Warehouse Entry";
+        rSSCCL: Record "SSCC Line";
+        xLoc, xBin, xSSCC, xItem, xVariant : Text;
+        currKey, OldKey : Text; rAP: record "IT4G-Check Apothemata" temporary;
         i, t : Integer;
         dDLG: Dialog;
 }
