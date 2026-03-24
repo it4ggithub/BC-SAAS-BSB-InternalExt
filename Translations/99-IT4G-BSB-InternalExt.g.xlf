@@ -278,6 +278,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension IT4G-Transfer Shipment - Action GetBoxes - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 479233074 - Action 562255948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
+          <source>Import Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension IT4G-Sales Cr. Memo - Action ImportLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2008939134 - Action 562255948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
+          <source>Import Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension IT4G-Sales Invoice - Action ImportLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1504293503 - Action 562255948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Import Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension IT4G-Sales Order - Action ImportLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2483608691 - Action 562255948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
+          <source>Import Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension IT4G-Sales Quote - Action ImportLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1285160660 - Action 562255948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1598289728">
+          <source>Import Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension IT4G-Sales Ret. Order - Action ImportLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1079351765 - Action 562255948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 66664215">
+          <source>Import Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension IT4G-Transfer Order Import - Action ImportLines - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1250985909 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>IT4G-Check Apothemata</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -377,6 +407,26 @@
           <source>Warehouse Qty</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Apothemata - Field Warehouse Qty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 7724632 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IT4G-Import Order Lines tmp</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Import Order Lines tmp - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 7724632 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Import Order Lines tmp - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 7724632 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Import Order Lines tmp - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 7724632 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Import Order Lines tmp - Field Variant Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2741573338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>BSB-Trans. AADE for Correction</source>

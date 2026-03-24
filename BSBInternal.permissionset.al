@@ -13,5 +13,9 @@ permissionset 91000 "BSB-Internal"
         tabledata "IT4G-Check Apothemata" = RIMD,
         table "IT4G-Check Apothemata" = X,
         codeunit "IT4G-Check Apothemata" = X,
-        page "IT4G-Check Apothemata" = X;
+        page "IT4G-Check Apothemata" = X,
+        tabledata "IT4G-Import Order Lines tmp" = RIMD,
+        table "IT4G-Import Order Lines tmp" = X,
+        report "IT4G-GLE Report" = X,
+        codeunit "IT4G-Import lines Management" = X;
 }
