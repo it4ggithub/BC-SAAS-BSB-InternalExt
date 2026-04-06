@@ -2,7 +2,7 @@
     "id":  "939b553f-b2cb-4774-bd20-6229b565b05f",
     "name":  "99-IT4G-BSB-InternalExt",
     "publisher":  "IT4G-BSB",
-    "version":  "927.2026.3.125",
+    "version":  "927.2026.3.130",
     "brief":  "",
     "description":  "",
     "privacyStatement":  "",
@@ -122,6 +122,10 @@
                      {
                          "from":  91000,
                          "to":  91999
+                     },
+                     {
+                         "from":  99000,
+                         "to":  99999
                      },
                      {
                          "from":  71000,
