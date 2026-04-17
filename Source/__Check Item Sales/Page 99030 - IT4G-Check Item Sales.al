@@ -18,6 +18,7 @@ page 99030 "IT4G-Check Item Sales"
         {
             repeater(General)
             {
+                field(Status; Rec.Status) { }
                 field("Customer No."; Rec."Customer No.") { }
                 field("Customer Address"; Rec."Customer Address") { }
                 field("Store No."; Rec."Store No.") { }
@@ -36,7 +37,6 @@ page 99030 "IT4G-Check Item Sales"
                 field("Qty Packed SSCC"; Rec."Qty Packed SSCC") { }
                 field("Qty Shipped"; Rec."Qty Shipped") { StyleExpr = xStyle; }
                 field("Qty Posted Warehouse"; Rec."Qty Posted Warehouse") { StyleExpr = xStyle; }
-
             }
         }
     }

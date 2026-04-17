@@ -673,6 +673,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Qty Shipped Calc - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Status - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 4069880004 - Field 3019550948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Store No.</source>
           <note from="Developer" annotates="general" priority="2"></note>

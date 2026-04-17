@@ -65,6 +65,14 @@ codeunit 99020 "IT4G-Check Item Sales Mng"
                     if rSS.Get(rTempCheckItemSales."Store No.") then
                         rTempCheckItemSales."Location Code" := rSS."Location Code";
                 end;
+                if (rTempCheckItemSales."Qty Picked Take" <> rTempCheckItemSales."Qty Shipped") or
+                    (rTempCheckItemSales."Qty Picked Take Scanned" <> rTempCheckItemSales."Qty Shipped") or
+                    (rTempCheckItemSales."Qty Picked Place" <> rTempCheckItemSales."Qty Shipped") or
+                    (rTempCheckItemSales."Qty Picked Place Scanned" <> rTempCheckItemSales."Qty Shipped") or
+                    (rTempCheckItemSales."Qty Packed SSCC" <> rTempCheckItemSales."Qty Shipped") then
+                    rTempCheckItemSales.Status := rTempCheckItemSales.Status::Dif
+                else
+                    rTempCheckItemSales.Status := rTempCheckItemSales.Status::Match;
                 rTempCheckItemSales.Insert();
             until TempCheckItemSales.Next() = 0;
         dDLG.Close();

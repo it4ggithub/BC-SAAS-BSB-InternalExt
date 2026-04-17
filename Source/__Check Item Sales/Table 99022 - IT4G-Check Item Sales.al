@@ -89,6 +89,11 @@ table 99022 "IT4G-Check Item Sales"
         {
             Caption = 'Qty Posted Warehouse';
         }
+        field(200; Status; Option)
+        {
+            Caption = 'Status';
+            OptionMembers = Match,Dif;
+        }
     }
     keys
     {
