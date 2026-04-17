@@ -263,6 +263,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension IT4G-Posted LS TR Ship - Action GetBoxes - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 4069880004 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IT4G-Check Item Sales</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Item Sales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4069880004 - Action 1417232546 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EMPTY</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Item Sales - Action Check - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4069880004 - Action 2026913255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Item Sales - Action Refresh - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4069880004 - Action 532051092 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Item Sales - Action RefreshItem - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4069880004 - Action 1367446625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh Item variant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Check Item Sales - Action RefreshItemvariant - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1756296107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>IT4G-Missmatched Cust. Documents</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -277,6 +302,161 @@
           <source>IT4G Get Transfer Boxes</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension IT4G-Transfer Shipment - Action GetBoxes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IT4G-Fason Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Control 2336275952 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Destination Location Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Control Destination Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Control 3037551876 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of items.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Control No. of Items - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Control 1397175981 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of orders.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Control No. of Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description of the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Control 47657272 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies information in addition to the description of the item being transferred.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Control Description 2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number that is associated with the line or entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the item that will be transferred.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Control Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Control Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Control 851830778 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Prod. Order No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Control Prod. Order No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Control 714568894 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity of items that remains to be received.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Control Qty. to Receive - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Control 1128541325 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity of items that remain to be shipped.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Control Qty. to Ship - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity of the item that will be processed as the document stipulates.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Control 3450651614 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the variant of the item on the line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Control Variant Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Action 2282416948 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create a mass shipment for the selected location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Action Post - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Action 2282416948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Mass Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Action Post - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Action 550745809 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh the list with the latest data.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Action RefreshList - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3671926994 - Action 550745809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-Fason Shipment - Action RefreshList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 228467059 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IT4G-SSCC Bin break</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-SSCC Bin break - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 228467059 - Control 1020675092 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bin Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-SSCC Bin break - Control BinCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228467059 - Control 2814799924 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bin Code field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-SSCC Bin break - Control Bin Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228467059 - Control 2984030745 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Inventory Calc. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-SSCC Bin break - Control Inventory Calc - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228467059 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Item No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-SSCC Bin break - Control Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228467059 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Inventory field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-SSCC Bin break - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228467059 - Control 388067054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SSCC Inv. Calc field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-SSCC Bin break - Control SSCC Inv. Calc - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228467059 - Control 728998809 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SSCC No. field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-SSCC Bin break - Control SSCC No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228467059 - Control 2347275048 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SSCC Qty field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-SSCC Bin break - Control SSCC Qty - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228467059 - Control 3461617611 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SSCC Qty Calc field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-SSCC Bin break - Control SSCC Qty Calc - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228467059 - Control 3450651614 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Variant Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-SSCC Bin break - Control Variant Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228467059 - Action 2026913255 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refreshes the SSCC Bin break.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-SSCC Bin break - Action Refresh - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228467059 - Action 2026913255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page IT4G-SSCC Bin break - Action Refresh - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 479233074 - Action 562255948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
           <source>Import Lines</source>
@@ -408,6 +588,101 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Apothemata - Field Warehouse Qty - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 4069880004 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IT4G-Check Item Sales</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 1425519166 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Customer Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 1632466372 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty on Blanket Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Qty on Blanket Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 1942525263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty on Blanket Order Calc</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Qty on Blanket Order Calc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 1384457045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty on Sales Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Qty on Sales Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 178814298 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty on Sales Order Calc</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Qty on Sales Order Calc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 170587832 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty Packed SSCC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Qty Packed SSCC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 3449532993 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty Picked Place</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Qty Picked Place - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 2843227489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty Picked Place Scanned</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Qty Picked Place Scanned - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 3627920953 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty Picked Take</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Qty Picked Take - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 692199193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty Picked Take Scanned</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Qty Picked Take Scanned - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 3299101924 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty Posted Warehouse</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Qty Posted Warehouse - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 3606800289 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty Shipped</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Qty Shipped - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 35522446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty Shipped Calc</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Qty Shipped Calc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 3019550948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Store No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Store No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4069880004 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Check Item Sales - Field Variant Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 7724632 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>IT4G-Import Order Lines tmp</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -427,6 +702,56 @@
           <source>Variant Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-Import Order Lines tmp - Field Variant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3575003334 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IT4G-SSCC Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-SSCC Content - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3575003334 - Field 2814799924 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bin Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-SSCC Content - Field Bin Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3575003334 - Field 2105307182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-SSCC Content - Field Inventory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3575003334 - Field 2984030745 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory Calc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-SSCC Content - Field Inventory Calc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3575003334 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-SSCC Content - Field Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3575003334 - Field 1946412628 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SSCC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-SSCC Content - Field SSCC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3575003334 - Field 388067054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SSCC Inv. Calc</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-SSCC Content - Field SSCC Inv. Calc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3575003334 - Field 2347275048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SSCC Qty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-SSCC Content - Field SSCC Qty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3575003334 - Field 3461617611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SSCC Qty Calc</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-SSCC Content - Field SSCC Qty Calc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3575003334 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table IT4G-SSCC Content - Field Variant Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2741573338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>BSB-Trans. AADE for Correction</source>

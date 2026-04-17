@@ -17,5 +17,13 @@ permissionset 91000 "BSB-Internal"
         tabledata "IT4G-Import Order Lines tmp" = RIMD,
         table "IT4G-Import Order Lines tmp" = X,
         report "IT4G-GLE Report" = X,
-        codeunit "IT4G-Import lines Management" = X;
+        codeunit "IT4G-Import lines Management" = X,
+        page "IT4G-Fason Shipment" = X,
+        tabledata "IT4G-SSCC Content" = RIMD,
+        table "IT4G-SSCC Content" = X,
+        page "IT4G-SSCC Bin break" = X,
+        tabledata "IT4G-Check Item Sales" = RIMD,
+        table "IT4G-Check Item Sales" = X,
+        codeunit "IT4G-Check Item Sales Mng" = X,
+        page "IT4G-Check Item Sales" = X;
 }
